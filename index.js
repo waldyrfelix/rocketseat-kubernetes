@@ -7,7 +7,7 @@ app.use(morgan('short'))
 app.get('/', (req, res) => {
     res.json({
         "date": new Date(),
-        "message": "Olá galera Rocket Seat!",
+        "message": "Olá galera Rocketseat!",
         "headers": req.headers
     })
 });
